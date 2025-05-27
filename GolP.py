@@ -284,7 +284,7 @@ def show_players(team1_name, team1_players, team1_osta, team2_name, team2_player
             p_surf = render_text(p, FONT_SMALL, WHITE)
             screen.blit(p_surf, (middle_x - 500, 120 + i * 30))
 
-        osta_surf = render_text(team1_osta + " ★", FONT_SMALL, YELLOW)
+        osta_surf = render_text(team1_osta + "  :  اوستا ", FONT_SMALL, YELLOW)
         screen.blit(osta_surf, (middle_x - 500, 120 + len(team1_players) * 30))
 
         t2_title = render_text(f"تیم {team2_name}", FONT_MEDIUM, NEON_ORANGE)
@@ -294,7 +294,7 @@ def show_players(team1_name, team1_players, team1_osta, team2_name, team2_player
             p_surf = render_text(p, FONT_SMALL, WHITE)
             screen.blit(p_surf, (middle_x + 350, 120 + i * 30))
 
-        osta2_surf = render_text(team2_osta + " ★", FONT_SMALL, YELLOW)
+        osta2_surf = render_text(team2_osta + "  :  اوستا ", FONT_SMALL, YELLOW)
         screen.blit(osta2_surf, (middle_x + 350, 120 + len(team2_players) * 30))
 
         # نمره ها وسط بالا
