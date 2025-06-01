@@ -133,4 +133,4 @@ python Main.py
 ---
 
 🎉 Enjoy the game and support traditional Iranian culture in the digital world!
-```
+
